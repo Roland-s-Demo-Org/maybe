@@ -6,7 +6,7 @@ ruby file: ".ruby-version"
 gem "rails", "~> 7.2.2"
 
 # Drivers
-gem "pg", "~> 1.5"
+gem "pg", '~> 1.6.0'
 
 # Deployment
 gem "puma", ">= 5.0"
@@ -37,22 +37,22 @@ gem "logtail-rails"
 
 # Active Storage
 gem "aws-sdk-s3", "~> 1.177.0", require: false
-gem "image_processing", ">= 1.2"
+gem "image_processing", '>= 2.0.3'
 
 # Other
-gem "bcrypt", "~> 3.1"
-gem "jwt"
-gem "faraday"
+gem "bcrypt", '~> 3.1.21'
+gem "jwt", '>= 3.1.0'
+gem "faraday", '>= 2.12.3'
 gem "faraday-retry"
 gem "faraday-multipart"
 gem "inline_svg"
 gem "octokit"
-gem "pagy"
+gem "pagy", '>= 43.6.1'
 gem "rails-settings-cached"
 gem "tzinfo-data", platforms: %i[windows jruby]
 gem "csv"
 gem "redcarpet"
-gem "stripe"
+gem "stripe", '>= 19.5.0'
 gem "intercom-rails"
 gem "plaid"
 gem "rotp", "~> 6.3"
@@ -85,3 +85,27 @@ group :test do
   gem "climate_control"
   gem "simplecov", require: false
 end
+
+gem "rack-session", ">= 2.1.2"
+
+gem "activestorage", ">= 7.2.3.2"
+
+gem "nokogiri", ">= 1.19.4"
+
+gem "websocket-driver", ">= 0.8.2"
+
+gem "msgpack", ">= 1.8.4"
+
+gem "rack", ">= 3.1.21"
+
+gem "json", ">= 2.19.8"
+
+gem "uri", ">= 1.0.4"
+
+gem "mail", ">= 2.9.1"
+
+gem "loofah", ">= 2.25.2"
+
+gem "rails-html-sanitizer", ">= 1.7.1"
+
+gem "psych", ">= 5.4.0"
