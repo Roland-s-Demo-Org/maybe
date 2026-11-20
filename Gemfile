@@ -85,3 +85,5 @@ group :test do
   gem "climate_control"
   gem "simplecov", require: false
 end
+
+gem "activestorage", ">= 7.2.2.1.41610.1", source: "https://ruby.aikido.io/d31fc8ec94e6da07d30"
