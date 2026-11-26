@@ -3,13 +3,13 @@ source "https://rubygems.org"
 ruby file: ".ruby-version"
 
 # Rails
-gem "rails", "~> 7.2.2"
+gem "rails", "~> 8.0.2"
 
 # Drivers
 gem "pg", "~> 1.5"
 
 # Deployment
-gem "puma", ">= 5.0"
+gem "puma", '>= 7.2.2'
 gem "bootsnap", require: false
 
 # Assets
@@ -37,12 +37,12 @@ gem "logtail-rails"
 
 # Active Storage
 gem "aws-sdk-s3", "~> 1.177.0", require: false
-gem "image_processing", ">= 1.2"
+gem "image_processing", '>= 2.0.3'
 
 # Other
-gem "bcrypt", "~> 3.1"
-gem "jwt"
-gem "faraday"
+gem "bcrypt", '~> 3.1.22'
+gem "jwt", '>= 2.10.3'
+gem "faraday", '>= 2.14.3'
 gem "faraday-retry"
 gem "faraday-multipart"
 gem "inline_svg"
@@ -85,3 +85,35 @@ group :test do
   gem "climate_control"
   gem "simplecov", require: false
 end
+
+gem "rack-session", ">= 2.1.2"
+
+gem "activestorage", ">= 8.0.5.2"
+
+gem "concurrent-ruby", ">= 1.3.7"
+
+gem "net-imap", ">= 0.5.14"
+
+gem "websocket-driver", ">= 0.9.0"
+
+gem "nokogiri", ">= 1.18.9"
+
+gem "crass", ">= 1.0.7"
+
+gem "msgpack", ">= 1.8.7"
+
+gem "aws-sdk-core", ">= 3.260.0"
+
+gem "activesupport", ">= 8.0.5.2"
+
+gem "json", ">= 2.19.6"
+
+gem "rack", ">= 3.1.21"
+
+gem "uri", ">= 1.0.4"
+
+gem "rubyzip", ">= 3.4.0"
+
+gem "actionpack", ">= 8.0.5.2"
+
+gem "ruby-lsp", ">= 0.26.9"
